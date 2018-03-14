@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31C7F622058E40800872404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C7F612058E40800872404 /* AppDelegate.swift */; };
+		E31C7F642058E40800872404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C7F632058E40800872404 /* ViewController.swift */; };
+		E31C7F672058E40800872404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C7F652058E40800872404 /* Main.storyboard */; };
+		E31C7F6A2058E40800872404 /* Stardom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E31C7F682058E40800872404 /* Stardom.xcdatamodeld */; };
+		E31C7F6C2058E40800872404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31C7F6B2058E40800872404 /* Assets.xcassets */; };
+		E31C7F6F2058E40800872404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C7F6D2058E40800872404 /* LaunchScreen.storyboard */; };
+		E31C7F7A2058E40800872404 /* StardomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C7F792058E40800872404 /* StardomTests.swift */; };
+		E31C7F852058E40800872404 /* StardomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31C7F842058E40800872404 /* StardomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31C7F762058E40800872404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C7F562058E40800872404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C7F5D2058E40800872404;
+			remoteInfo = Stardom;
+		};
+		E31C7F812058E40800872404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C7F562058E40800872404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C7F5D2058E40800872404;
+			remoteInfo = Stardom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31C7F5E2058E40800872404 /* Stardom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stardom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C7F612058E40800872404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E31C7F632058E40800872404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31C7F662058E40800872404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31C7F692058E40800872404 /* Stardom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stardom.xcdatamodel; sourceTree = "<group>"; };
+		E31C7F6B2058E40800872404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31C7F6E2058E40800872404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31C7F702058E40800872404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C7F752058E40800872404 /* StardomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StardomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C7F792058E40800872404 /* StardomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardomTests.swift; sourceTree = "<group>"; };
+		E31C7F7B2058E40800872404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C7F802058E40800872404 /* StardomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StardomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C7F842058E40800872404 /* StardomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardomUITests.swift; sourceTree = "<group>"; };
+		E31C7F862058E40800872404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31C7F5B2058E40800872404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F722058E40800872404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F7D2058E40800872404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31C7F552058E40800872404 = {
+			isa = PBXGroup;
+			children = (
+				E31C7F602058E40800872404 /* Stardom */,
+				E31C7F782058E40800872404 /* StardomTests */,
+				E31C7F832058E40800872404 /* StardomUITests */,
+				E31C7F5F2058E40800872404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31C7F5F2058E40800872404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31C7F5E2058E40800872404 /* Stardom.app */,
+				E31C7F752058E40800872404 /* StardomTests.xctest */,
+				E31C7F802058E40800872404 /* StardomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31C7F602058E40800872404 /* Stardom */ = {
+			isa = PBXGroup;
+			children = (
+				E31C7F612058E40800872404 /* AppDelegate.swift */,
+				E31C7F632058E40800872404 /* ViewController.swift */,
+				E31C7F652058E40800872404 /* Main.storyboard */,
+				E31C7F6B2058E40800872404 /* Assets.xcassets */,
+				E31C7F6D2058E40800872404 /* LaunchScreen.storyboard */,
+				E31C7F702058E40800872404 /* Info.plist */,
+				E31C7F682058E40800872404 /* Stardom.xcdatamodeld */,
+			);
+			path = Stardom;
+			sourceTree = "<group>";
+		};
+		E31C7F782058E40800872404 /* StardomTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C7F792058E40800872404 /* StardomTests.swift */,
+				E31C7F7B2058E40800872404 /* Info.plist */,
+			);
+			path = StardomTests;
+			sourceTree = "<group>";
+		};
+		E31C7F832058E40800872404 /* StardomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C7F842058E40800872404 /* StardomUITests.swift */,
+				E31C7F862058E40800872404 /* Info.plist */,
+			);
+			path = StardomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31C7F5D2058E40800872404 /* Stardom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C7F892058E40800872404 /* Build configuration list for PBXNativeTarget "Stardom" */;
+			buildPhases = (
+				E31C7F5A2058E40800872404 /* Sources */,
+				E31C7F5B2058E40800872404 /* Frameworks */,
+				E31C7F5C2058E40800872404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stardom;
+			productName = Stardom;
+			productReference = E31C7F5E2058E40800872404 /* Stardom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31C7F742058E40800872404 /* StardomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C7F8C2058E40800872404 /* Build configuration list for PBXNativeTarget "StardomTests" */;
+			buildPhases = (
+				E31C7F712058E40800872404 /* Sources */,
+				E31C7F722058E40800872404 /* Frameworks */,
+				E31C7F732058E40800872404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C7F772058E40800872404 /* PBXTargetDependency */,
+			);
+			name = StardomTests;
+			productName = StardomTests;
+			productReference = E31C7F752058E40800872404 /* StardomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31C7F7F2058E40800872404 /* StardomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C7F8F2058E40800872404 /* Build configuration list for PBXNativeTarget "StardomUITests" */;
+			buildPhases = (
+				E31C7F7C2058E40800872404 /* Sources */,
+				E31C7F7D2058E40800872404 /* Frameworks */,
+				E31C7F7E2058E40800872404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C7F822058E40800872404 /* PBXTargetDependency */,
+			);
+			name = StardomUITests;
+			productName = StardomUITests;
+			productReference = E31C7F802058E40800872404 /* StardomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31C7F562058E40800872404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "NextStep Labs";
+				TargetAttributes = {
+					E31C7F5D2058E40800872404 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E31C7F742058E40800872404 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31C7F5D2058E40800872404;
+					};
+					E31C7F7F2058E40800872404 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31C7F5D2058E40800872404;
+					};
+				};
+			};
+			buildConfigurationList = E31C7F592058E40800872404 /* Build configuration list for PBXProject "Stardom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31C7F552058E40800872404;
+			productRefGroup = E31C7F5F2058E40800872404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31C7F5D2058E40800872404 /* Stardom */,
+				E31C7F742058E40800872404 /* StardomTests */,
+				E31C7F7F2058E40800872404 /* StardomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31C7F5C2058E40800872404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C7F6F2058E40800872404 /* LaunchScreen.storyboard in Resources */,
+				E31C7F6C2058E40800872404 /* Assets.xcassets in Resources */,
+				E31C7F672058E40800872404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F732058E40800872404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F7E2058E40800872404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31C7F5A2058E40800872404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C7F6A2058E40800872404 /* Stardom.xcdatamodeld in Sources */,
+				E31C7F642058E40800872404 /* ViewController.swift in Sources */,
+				E31C7F622058E40800872404 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F712058E40800872404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C7F7A2058E40800872404 /* StardomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C7F7C2058E40800872404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C7F852058E40800872404 /* StardomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31C7F772058E40800872404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C7F5D2058E40800872404 /* Stardom */;
+			targetProxy = E31C7F762058E40800872404 /* PBXContainerItemProxy */;
+		};
+		E31C7F822058E40800872404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C7F5D2058E40800872404 /* Stardom */;
+			targetProxy = E31C7F812058E40800872404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31C7F652058E40800872404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31C7F662058E40800872404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31C7F6D2058E40800872404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31C7F6E2058E40800872404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31C7F872058E40800872404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E31C7F882058E40800872404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31C7F8A2058E40800872404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = Stardom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.Stardom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31C7F8B2058E40800872404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = Stardom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.Stardom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E31C7F8D2058E40800872404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = StardomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.StardomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stardom.app/Stardom";
+			};
+			name = Debug;
+		};
+		E31C7F8E2058E40800872404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = StardomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.StardomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stardom.app/Stardom";
+			};
+			name = Release;
+		};
+		E31C7F902058E40800872404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = StardomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.StardomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stardom;
+			};
+			name = Debug;
+		};
+		E31C7F912058E40800872404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = StardomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nslabskz.apps.StardomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stardom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31C7F592058E40800872404 /* Build configuration list for PBXProject "Stardom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C7F872058E40800872404 /* Debug */,
+				E31C7F882058E40800872404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C7F892058E40800872404 /* Build configuration list for PBXNativeTarget "Stardom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C7F8A2058E40800872404 /* Debug */,
+				E31C7F8B2058E40800872404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C7F8C2058E40800872404 /* Build configuration list for PBXNativeTarget "StardomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C7F8D2058E40800872404 /* Debug */,
+				E31C7F8E2058E40800872404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C7F8F2058E40800872404 /* Build configuration list for PBXNativeTarget "StardomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C7F902058E40800872404 /* Debug */,
+				E31C7F912058E40800872404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E31C7F682058E40800872404 /* Stardom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E31C7F692058E40800872404 /* Stardom.xcdatamodel */,
+			);
+			currentVersion = E31C7F692058E40800872404 /* Stardom.xcdatamodel */;
+			path = Stardom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E31C7F562058E40800872404 /* Project object */;
+}
