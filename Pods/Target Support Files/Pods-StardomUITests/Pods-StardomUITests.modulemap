@@ -1,0 +1,6 @@
+framework module Pods_StardomUITests {
+  umbrella header "Pods-StardomUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
